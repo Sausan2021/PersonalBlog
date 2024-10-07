@@ -1,0 +1,34 @@
+.author-info{
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.author-info h3,h4{
+    margin-top: 0;
+}
+
+.author-avatar{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.author-details{
+    display: flex;
+    align-items: center;
+}
+
+.author-bio{
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+.log{
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+}

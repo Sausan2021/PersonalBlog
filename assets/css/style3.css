@@ -1,0 +1,66 @@
+a:hover{
+color: #2E2E2E;
+}
+
+a{
+    color: black;
+}
+
+.tab1cards {
+    display: flex;
+    justify-content:space-around;
+    align-items: center; 
+    padding: 10px;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+
+.card1 , .card2,  .card3 , .card4 {
+    display: inline-block;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    margin: 20px auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card-image {
+    width: 100%;
+    object-fit:cover;
+    overflow: hidden;
+    margin: 0;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.3em;
+    margin-bottom: 5px;
+}
+
+.card-description {
+    color: #555;
+}
+
+.card-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #C1C190;
+    color: #2E2E2E;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.card-button:hover {
+    background-color: #dddea0;
+}
+
+.badge-info{
+    background-color: #43493a;
+}
